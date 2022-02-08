@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: SeoyoungLee's Dev Portfolio
+title: 서영's Dev Portfolio
 
 # Your name to show in the footer
 author: SeoyoungLee
@@ -15,14 +15,14 @@ author: SeoyoungLee
 
 navbar-links:
   About Me: "aboutme"
-  AI Portfolio:
+  Portfolio:
     - 차량 번호판 인식 프로젝트: "2021-07-05-airbnb-clone-project-amenity-detection"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/profile_sky.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -39,7 +39,7 @@ round-avatar: true
 social-network-links:
   email: "ceng99@naver.com"
 #  facebook: deanattali
-  github: https://github.com/Lee-Seoyoung
+  github: Lee-Seoyoung
 #  twitter: daattali
 #  patreon: DeanAttali
 #  youtube: c/daattali
@@ -76,7 +76,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://github.com/Lee-Seoyoung"
+url-pretty: "lee-seoyoung.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
