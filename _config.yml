@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: 서영's Dev Portfolio
+title: Lee Seo Young's Portfolio Blog
 
 # Your name to show in the footer
 author: SeoyoungLee
@@ -16,7 +16,7 @@ author: SeoyoungLee
 navbar-links:
   About Me: "aboutme"
   Portfolio:
-    - 차량 번호판 인식 프로젝트: "2021-07-05-airbnb-clone-project-amenity-detection"
+    - 차량 번호판 인식 프로젝트: "2022-02-08-license-plate-recognition-project"
 
 # --- Logo --- #
 
