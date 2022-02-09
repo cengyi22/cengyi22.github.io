@@ -28,7 +28,7 @@ Text Detection 기술은 교통 카메라에서 자동차 번호판 인식, 시�
 
 그림 2 - Text Detection 기술을 활용한 자동차 번호판 인식 [2]
 
-![Untitled 2](../assets/img/video_recognition.jpeg)
+![Untitled 2](../assets/img/Untitled%202.png)
 
 그림 3 - News Video에서의 Text Detection [3]
 
@@ -36,7 +36,7 @@ Text Detection 기술은 교통 카메라에서 자동차 번호판 인식, 시�
 
 ICDAR(Incidental Scene Text Dataset)은 1500장 이미지로 구성되어 있으며, 1000장은 Training 나머지는 testing으로 사용합니다. 4개의 꼭지점 좌표가 annotation으로 되어 있습니다. 2013년 Dataset은 229장입니다. [4]
 
-![Untitled 5](../assets/img/icdar.png)
+![Untitled 3](../assets/img/Untitled%203.png)
 
 그림 4 - Google glass로 촬영한 icdar 샘플 사진
 
@@ -45,7 +45,7 @@ ICDAR(Incidental Scene Text Dataset)은 1500장 이미지로 구성되어 있으
 
 COCO-Text Dataset은 63686장의 이미지와 annotation들이 있습니다. annotation은 AABB 형태로 되어 있는데 RBOX의 special case로 rotaion angle이 0인 정방향의 label 형태로 볼 수 있습니다. 
 
-![Untitled 5](../assets/img/coco.png)
+![Untitled 4](../assets/img/Untitled%204.png)
 
 그림 5 - COCO Dataset 샘플 사진 [5]
 
@@ -69,7 +69,7 @@ COCO-Text Dataset은 63686장의 이미지와 annotation들이 있습니다. ann
 ### 실습 환경
 * Google Colab이용 (Tesla P100-PCIE)
 
-![Untitled 5](../assets/img/colab.png)
+![Untitled 5](../assets/img/Untitled%205.png)
 
 그림 6 - Google colab 환경
 ### 진행 방법
