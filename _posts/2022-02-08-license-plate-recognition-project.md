@@ -2,13 +2,15 @@
 layout: post
 title: 차량 번호판 인식 실전 프로젝트 - License Plate Detection
 subtitle: Custom Dataset 실전 프로젝트 실습 1 - CRAFT를 이용한 License Plate Detection 모델(Custom Dataset) 학습 (진행중)
-cover-img: /assets/img/amenity_thumb.png
-thumbnail-img: /assets/img/amenity_thumb.png
-share-img: /assets/img/amenity_thumb.png
-tags: [object detection, custom dataset, centernet]
+cover-img: /assets/img/car_recognition.jpg
+thumbnail-img: /assets/img/car_recognition.jpg
+share-img: /assets/img/car_recognition.jpg
+tags: [text detection, custom dataset, craft]
 ---
 
 # License Plate Detection - 차량 번호판 인식 실전 프로젝트
+
+이 프로젝트는 Inflearn [차량 번호판 인식 프로젝트와 TensorFlow로 배우는 딥러닝 영상인식 올인원](https://www.inflearn.com/course/tensorflow-%EC%8B%A4%EC%A0%84%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%98%AC%EC%9D%B8%EC%9B%90/dashboard) 수업의 결과물을 정리한 내용입니다. 
 
 ## Text Detection 문제영역 소개
 이미지 내에 텍스트가 존재하는 영역의 위치정보를 Bounding Box로 찾는 문제 영역입니다. 의미 정보와 상관 없이 Text가 어느 위치에 있는 지를 찾아줍니다.   
