@@ -16,14 +16,15 @@ tags: [text detection, custom dataset, craft]
 이미지 내에 텍스트가 존재하는 영역의 위치정보를 Bounding Box로 찾는 문제 영역입니다. 의미 정보와 상관 없이 Text가 어느 위치에 있는 지를 찾아줍니다.   
 일반적인 Object Detection과의 차이점은 Rotation Angle까지 고려해서 Detection을 하기 때문에, Rotation Angle을 고려하지 않는 Object Detection보다 좀 더 정확하게 진행할 수 있습니다.
 
-![Untitled](../assets/img/text_detection_img_2.png)
+![Untitled](../assets/img/Untitled.png)
 
 그림 1 - Text Detection 모델의 결과 - (Text의 위치 
 정보에 대한 Bounding Box) [1]
 
 Text Detection 기술은 교통 카메라에서 자동차 번호판 인식, 시각적 검색 등 다양한 분야의 현실세계 문제에 활발히 사용 되고 있습니다.
 
-![Untitled 1](../assets/img/car_detection.jpg)
+![Untitled 1](../assets/img/Untitled%201.png)  
+
 
 그림 2 - Text Detection 기술을 활용한 자동차 번호판 인식 [2]
 
@@ -37,16 +38,16 @@ ICDAR(Incidental Scene Text Dataset)은 1500장 이미지로 구성되어 있으
 
 ![Untitled 5](../assets/img/icdar.png)
 
-그림 6 - Google glass로 촬영한 icdar 샘플 사진
+그림 4 - Google glass로 촬영한 icdar 샘플 사진
 
 
 # OCR Open Dataset2 - COCO-Text Dataset
 
 COCO-Text Dataset은 63686장의 이미지와 annotation들이 있습니다. annotation은 AABB 형태로 되어 있는데 RBOX의 special case로 rotaion angle이 0인 정방향의 label 형태로 볼 수 있습니다. 
 
-![Untitled 5](../assets/img/coco1.png)
+![Untitled 5](../assets/img/coco.png)
 
-그림 7 - COCO Dataset 샘플 사진 [5]
+그림 5 - COCO Dataset 샘플 사진 [5]
 
 # Car License Plate recognition project 
 
@@ -68,9 +69,9 @@ COCO-Text Dataset은 63686장의 이미지와 annotation들이 있습니다. ann
 ### 실습 환경
 * Google Colab이용 (Tesla P100-PCIE)
 
-![Untitled 5](../assets/img/coLab.png)
+![Untitled 5](../assets/img/colab.png)
 
-그림 8 - Google colab 환경
+그림 6 - Google colab 환경
 ### 진행 방법
 * 1. 제공된 Dataset에서 jpg 파일과 txt 파일에서 필요한 정보들을 parsing해서 keras-ocr 예제의 get_license_plate_detector_dataset 함수의 반환값과 같은 형태로 만들어줍니다.
 * 2. license plate detector Dataset에 맞게 CRAFT 파라미터를 FINE-Tuning 합니다.
