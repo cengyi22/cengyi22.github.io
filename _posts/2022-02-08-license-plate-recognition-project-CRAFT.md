@@ -3,7 +3,7 @@ layout: post
 title: 차량 번호판 인식 실전 프로젝트 - License Plate Detection
 subtitle: Custom Dataset 실전 프로젝트 실습 1 - CRAFT를 이용한 License Plate Detection 모델(Custom Dataset) 학습 (진행중)
 cover-img: /assets/img/car_recognition.jpg
-thumbnail-img: /assets/img/car_recognition.jpg
+thumbnail-img: /assets/img/keras_ocr.jpg
 share-img: /assets/img/car_recognition.jpg
 tags: [text detection, custom dataset, craft]
 ---
