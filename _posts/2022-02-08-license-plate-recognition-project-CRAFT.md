@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 차량 번호판 인식 실전 프로젝트 - License Plate Detection
+title: 차량 번호판 인식 실전 프로젝트 - License Plate Detection with CRAFT
 subtitle: Custom Dataset 실전 프로젝트 실습 1 - CRAFT를 이용한 License Plate Detection 모델(Custom Dataset) 학습 (진행중)
 cover-img: /assets/img/car_recognition.jpg
 thumbnail-img: /assets/img/keras_ocr.jpg
@@ -73,8 +73,8 @@ COCO-Text Dataset은 63686장의 이미지와 annotation들이 있습니다. ann
 
 그림 6 - Google colab 환경
 ### 진행 방법
-* 1. 제공된 Dataset에서 jpg 파일과 txt 파일에서 필요한 정보들을 parsing해서 keras-ocr 예제의 get_license_plate_detector_dataset 함수의 반환값과 같은 형태로 만들어줍니다.
-* 2. license plate detector Dataset에 맞게 CRAFT 파라미터를 FINE-Tuning 합니다.
+* 1 ) 제공된 Dataset에서 jpg 파일과 txt 파일에서 필요한 정보들을 parsing해서 keras-ocr 예제의 get_license_plate_detector_dataset 함수의 반환값과 같은 형태로 만들어줍니다.
+* 2 ) license plate detector Dataset에 맞게 CRAFT 파라미터를 FINE-Tuning 합니다.
 
 ### 정리
 * Custom dataset의 일종인 license_plate_detection 데이터를 피딩할 수 있는 custom 함수를 만들어서, plate detection이 잘 검출될 수 있는 방향성으로 다시 fine tuning을 시켜주었습니다. 재학습이 끝난 모델에 대해 prediction을 해서 정성적으로 만든 모델이 동작하는지를 분석했습니다.  
