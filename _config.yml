@@ -16,8 +16,8 @@ author: SeoyoungLee
 navbar-links:
   About Me: "aboutme"
   Portfolio:
-    - 차량 번호판 인식 프로젝트: "2022-02-08-license-plate-recognition-project"
-
+    - 차량 번호판 인식 프로젝트 1: "2022-02-08-license-plate-recognition-project-CRAFT"
+    - 차량 번호판 인식 프로젝트 2: "2022-02-11-license-plate-recognition-project-EAST"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
